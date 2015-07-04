@@ -1,0 +1,20 @@
+{
+  "name": "erdblock-twitter",
+  "version": "0.0.0",
+  "description": "## Description Default implementation of a erdblock plugin.",
+  "private": true,
+  "dependencies": {
+    "jade": "x",
+    "is_js": "x",
+    "cron": "x",
+    "twitter": "x",
+    "async": "x"
+  },
+  "gitHead": "775eb23c1ec0090ca61db4254d04712fc2321225",
+  "readme": "# erdblock-twitter\n\n## Description\nDefault implementation of a erdblock plugin.\n\n\n## Config\n| Name           | Description  | Values |\n| -------------- | ------------- | ----- |\n\n\n## Example\n",
+  "readmeFilename": "README.md",
+  "_id": "erdblock-twitter@0.0.0",
+  "_shasum": "06fa2c291db21064d603ffb7b192b9c7fdfec5fc",
+  "_from": "git+ssh://gitlab01@gitlab01.markab.uberspace.de:erdblock/erdblock-twitter.git",
+  "_resolved": "git+ssh://gitlab01@gitlab01.markab.uberspace.de/erdblock/erdblock-twitter.git#775eb23c1ec0090ca61db4254d04712fc2321225"
+}

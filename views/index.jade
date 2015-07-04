@@ -1,0 +1,24 @@
+h1(style="background-image:url(./plugin/"+uuid+"/public/icon.png)")
+	a(href="https://www.twitter.com/"+user.screen_name) Twitter
+h2 #{"@"+user.screen_name}
+ul
+	- tweets.forEach(function(tweet){
+		li 
+			p #{tweet.text}
+			p(class="time") #{tweet.created_at}
+	- })
+
+div(class='seperator')
+	
+table
+	tr
+		th #{user.followers_count}
+		th #{user.statuses_count}
+		th #{user.friends_count}
+	tr
+		td
+			a(href='?tab=repositories') Followers
+		td
+			a(href='/followers') Tweets
+		td
+			a(href='https://gist.github.com/') Following

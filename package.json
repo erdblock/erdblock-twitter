@@ -1,8 +1,7 @@
 {
   "name": "erdblock-twitter",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "## Description Default implementation of a erdblock plugin.",
-  "private": true,
   "dependencies": {
     "jade": "x",
     "is_js": "x",
